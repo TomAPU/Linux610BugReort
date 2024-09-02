@@ -17,4 +17,4 @@ qemu-system-x86_64 -m 4096 -smp 1 -chardev socket,id=SOCKSYZ,server=on,wait=off,
 | ------------- | ------------- |------------- |
 | Clang  | 14.0.0  x86_64-pc-linux-gnu| Compile the kernel|
 | QEMU  | 6.2.0 (Debian 1:6.2+dfsg-2ubuntu6.22)  |Boot up the kernel|
-| Linux kernel|[https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.xz](6.10) | The kernel we fuzzed|
+| Linux kernel|[6.10](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.xz) | The kernel we fuzzed|
