@@ -4,8 +4,16 @@ Config and everything about Linux 6.10 bug report
 ## Kernel config
 [.config file](kernelconfig)
 
-## Pre-compiled binaries
+## Pre-compiled kernel
 We have our vmlinux and bzImage uploaded to [Mega](https://mega.nz/folder/OiwmBYiT#lkXtypMW_GUeKawoHw-G8Q)
+
+## Compile the kernel through docker
+```bash
+git clone https://github.com/TomAPU/Linux610BugReort.git
+cd ./Linux610BugReort
+docker build -t linux610-builder-docker .
+docker run -it -v /path/on/host:/output linux610-builder-docker
+```
 
 ## Boot with QEMU 
 ```
