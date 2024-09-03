@@ -5,7 +5,7 @@ Config and everything about Linux 6.10 bug report
 [.config file](kernelconfig)
 
 ## Pre-compiled binaries
-We have our vmlinux and bzImage uploaded to [a seperate github repo](https://github.com/TomAPU/Linux610BugReort-Bins)
+We have our vmlinux and bzImage uploaded to [Mega](https://mega.nz/folder/OiwmBYiT#lkXtypMW_GUeKawoHw-G8Q)
 
 ## Boot with QEMU 
 ```
